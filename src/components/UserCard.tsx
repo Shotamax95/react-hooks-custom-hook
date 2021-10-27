@@ -9,8 +9,9 @@ export const UserCard: VFC<Props> = (props) => {
   const { user } = props;
 
   const style = {
-    border: "solid 1px #ccc",
-    borderRadius: "8px",
+    backGroundColor: "#ebe5e5",
+    borderRadius: "12px",
+    border: "solid 2px #45859c",
     padding: "0 16px",
     margin: "8px"
   };

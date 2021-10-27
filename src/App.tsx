@@ -9,7 +9,17 @@ export default function App() {
 
   return (
     <div className="App">
-      <button onClick={onClickFetchUser}>Retrieve Data</button>
+      <button
+        style={{
+          borderRadius: "15px",
+          border: "none",
+          backgroundColor: "#e99d8a",
+          fontWeight: "bold"
+        }}
+        onClick={onClickFetchUser}
+      >
+        Retrieve Data
+      </button>
       <br />
       {/* 
       condition ? true : false
